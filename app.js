@@ -9,7 +9,6 @@ app.use(cors());
 
 app.use(express.json());
 
-
 const jwtUtil = require('./helpers/jwtUtil');
 const authRoutes = require('./routes/auth');
 const usersRoutes = require('./routes/users');
